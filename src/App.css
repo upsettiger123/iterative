@@ -1,9 +1,168 @@
-/* Add styling for your page here */
-
-.App {
-
+:root {
+  --color-black: #000505;
+  --color-dark-violet: #DC8EAE;
+  --color-violet: #53ABBB;
+  --color-light-violet: #65D9D5;
+  --color-white: #FEFCFD;
 }
 
-.BakeryItem {
-  
+body {
+  font-family: sans-serif;
+}
+
+.section-title {
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+
+.section-subtitle {
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+.app {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidenav-container {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  height: 100vh;
+  width: 220px;
+  padding: 15px;
+  background-color: var(--color-light-violet);
+}
+
+.sidenav-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: right;
+  font-size: 36px;
+  margin-bottom: 100px;
+  user-select: none;
+}
+
+.sidenav-options {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  font-size: 20px;
+  gap: 25px;
+}
+
+.sidenav-button > a{
+  color: var(--color-black);
+  text-decoration: none;
+}
+
+.sidenav-button > a:hover{
+  color: var(--color-violet);
+  text-decoration: none;
+}
+
+.section-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  margin: 10px 0 0 250px;
+  color: var(--color-black);
+  width: 100%;
+  padding: 50px;
+}
+
+#placeholder {
+  width: 240px;
+  height: 500px;
+}
+
+#testing1, #testing2, #testing3 {
+  width: 500px;
+}
+
+#crit1 {
+  width: 240px;
+  height: 500px;
+}
+
+#crit2 {
+  width: 500px;
+  height: 500px;
+}
+
+#crit3 {
+  width: 270px;
+  height: 500px;
+}
+
+#crit4 {
+  width: 370px;
+  height: 560px;
+  margin-left: -110px;
+}
+
+#crit5 {
+  width: 260px;
+  height: 500px;
+}
+
+.imageCaption {
+  padding-bottom: 20px;
+}
+
+#account-creation-vid, #profile-creation-vid, #matching-vid, #profile-settings-vid, #unmatch-vid {
+  width: 260px;
+  height: 500px;
+}
+
+#sketch {
+  width: 320px;
+  height: 400px;
+}
+
+#sketch11, #sketch12, #sketch13 {
+  width: 300px;
+  height: 400px;
+}
+
+#sketch14 {
+  width: 320px;
+  height: 400px;
+}
+
+#sketch22 {
+  width: 330px;
+  height: 400px;
+}
+
+#sketch23 {
+  width: 320px;
+  height: 400px;
+}
+
+#sketch4 {
+  width: 330px;
+  height: 440px;
+}
+
+#lofi12 {
+  width: 600px;
+  height: 500px;
+}
+
+#lofi {
+  height: 500px;
+}
+
+#lofi4 {
+  height: 600px;
 }
