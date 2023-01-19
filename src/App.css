@@ -166,3 +166,11 @@ body {
 #lofi4 {
   height: 600px;
 }
+
+.section-text {
+  margin-top: 0;
+}
+
+.li-content {
+  padding: 0 30px;
+}

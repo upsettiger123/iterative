@@ -11,6 +11,7 @@ import ImageCaption from "./components/ImageCaption";
 import ButtonToggle from "./components/ImageToggle";
 import VideoToggle from "./components/VideoToggle";
 import DividedText from "./components/DividedText";
+import { nextSteps } from "./assets/content/capstone";
 
 function App() {
   return (
@@ -51,6 +52,11 @@ function App() {
               - User Testing
             </HashLink>
           </div>
+          <div className="sidenav-button">
+            <HashLink smooth to="/#capstone">
+              - Senior Capstone
+            </HashLink>
+          </div>
         </div>
       </div>
       <div className="content">
@@ -83,6 +89,15 @@ function App() {
           <div className="section-subtitle">Most of the results were in line with our expectations. All subtasks were successfully done, but there were some confusions. Click the buttons to view each user’s videos.</div>
           <VideoToggle options={testingVideos.user1} title={testingVideos.user2} subtitle={testingVideos.user3}/>
           <DividedText content={analysis.content}/>
+        </div>
+        <div id="capstone">
+        <div className="section-title">Senior Capstone</div>
+        <div className="section-subtitle">Introduction</div>
+        <p className="section-text">For our capstone, we chose to build upon our iterative design project from CSCI 1300. The course project was our implementation of the iterative design process, in which we iterate on designs for the UI of our app starting from sketches and moving to low fidelity wireframes and eventually high fidelity wireframes. To go from stage to stage, we reviewed and responded to critiques and user testing. In order to substantially develop upon the course assignment, we decided to build out our figma designs into an actual deployed mobile app. We utilized techniques learned in the course, like responsive design, that went beyond our coursework figma specifications. In addition, we decided to use react-native to learn and implement a different framework [is that the right word] not taught in class that has device specific APIs to make the user experience more realistic and substantive.</p>
+        
+        <div className="section-subtitle">Next Steps</div>
+        <p className="section-text">We have three main ideas of how to build out our capstone further:</p>
+        <DividedText content={nextSteps.content} trio={true} />
         </div>
       </div>
     </div>
