@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "./static/css/main.ec3262e7.css",
-    "main.js": "./static/js/main.3d60b1fe.js",
+    "main.css": "./static/css/main.1aaeb427.css",
+    "main.js": "./static/js/main.7a96b7fc.js",
     "static/js/787.06fb2cbf.chunk.js": "./static/js/787.06fb2cbf.chunk.js",
+    "static/media/delight_walkthrough_final.mp4": "./static/media/delight_walkthrough_final.51f6e5eee90fe0a0948d.mp4",
     "static/media/user3.mp4": "./static/media/user3.4a0ff0fb43c7c032311d.mp4",
     "static/media/user2.mp4": "./static/media/user2.13f685d64f58222a3e39.mp4",
     "static/media/user1.mp4": "./static/media/user1.81cc9558453fd472aa87.mp4",
@@ -37,12 +38,12 @@
     "static/media/delight_qr.png": "./static/media/delight_qr.1140d779ce24b5c4294b.png",
     "static/media/account-hifi.png": "./static/media/account-hifi.8465f543ad4088e9e47b.png",
     "index.html": "./index.html",
-    "main.ec3262e7.css.map": "./static/css/main.ec3262e7.css.map",
-    "main.3d60b1fe.js.map": "./static/js/main.3d60b1fe.js.map",
+    "main.1aaeb427.css.map": "./static/css/main.1aaeb427.css.map",
+    "main.7a96b7fc.js.map": "./static/js/main.7a96b7fc.js.map",
     "787.06fb2cbf.chunk.js.map": "./static/js/787.06fb2cbf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec3262e7.css",
-    "static/js/main.3d60b1fe.js"
+    "static/css/main.1aaeb427.css",
+    "static/js/main.7a96b7fc.js"
   ]
 }
