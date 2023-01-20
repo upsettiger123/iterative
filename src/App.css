@@ -171,6 +171,10 @@ body {
   width: 300px;
 }
 
+#delight_walkthrough_final {
+  height: 600px;
+}
+
 .section-text {
   margin-top: 0;
 }

@@ -16,6 +16,7 @@ import ButtonToggle from "./components/ImageToggle";
 import VideoToggle from "./components/VideoToggle";
 import DividedText from "./components/DividedText";
 import { deployment, development, nextSteps } from "./assets/content/capstone";
+import delight_video from "./assets/content/delight_walkthrough_final.mp4"
 
 function App() {
   return (
@@ -206,6 +207,14 @@ function App() {
             leftSubtitle={deployment.leftSubtitle}
             leftText={deployment.leftText}
           />
+          <div className="section-subtitle">Video Demonstration</div>
+          <p className="section-text">In the event that you are unable to view the deployment on Expo, we have taken the liberty to provide a screen recording of the app in use!</p>
+          <div className="video-container" >
+            <video  id="delight_walkthrough_final" controls>
+                <source src={delight_video} type="video/mp4" />
+                Oops! Your browser does not support this video type /:
+            </video>
+          </div>
           <div className="section-subtitle">Next Steps</div>
           <p className="section-text">
             We have three main ideas of how to build out our capstone further:
