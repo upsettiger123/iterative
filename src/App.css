@@ -167,6 +167,10 @@ body {
   height: 600px;
 }
 
+#delight_qr {
+  width: 300px;
+}
+
 .section-text {
   margin-top: 0;
 }
